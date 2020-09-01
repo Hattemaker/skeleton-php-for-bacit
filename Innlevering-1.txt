@@ -1,0 +1,13 @@
+Oppgave 1:
+	
+Oppgave 2:
+	Se video.
+Oppgave 3:
+	Istedenfor å lage en ny side, har jeg valgt å oppdatere index.php med flere små endringer. Derav blandt annet å endre litt farger og fonter, samt padding og margin ved å ta i bruk css. I dette oppsettet ser man lite til hverken margin eller padding, med unntak av teksten jeg har rotert på venstre side.
+	Jeg endret litt på hvordan oppsettet er i forhold til den korte videoen som ligger vedlagt, da jeg leste oppgaveteksten litt nøyere og gjorde noen endringer deretter.
+Oppgave 4:
+	Ved å kjøre phpinfo() i scriptet, får man opp informasjon om hvordan php er konfigurert på siden din. Dette kan være et nyttig verktøy til debugging av eventuelle feil, og for oversikt over siden.
+	Før dette kurset var jeg ikke klar over dette, men kommer til å bruke det på privaten også, da jeg pr nå opplever problemer med nettsiden min (www.fallskjerm.net), hvor errortekst er (det eneste) som kommer frem. Her vil jeg tro det lønner seg å endre på hvordan errormeldinger blir håndtert. Dette vil jeg forsøke å fikse ved å bruke phpinfo().   
+Oppgave 5:
+	valgte å prøve meg litt frem med å legge inn variabler i flere rader. Prøvde meg først å opprette et array, men gikk for å heller gjøre det på en mer statisk måte som dessverre tar for seg litt kodeduplikasjon.
+	
