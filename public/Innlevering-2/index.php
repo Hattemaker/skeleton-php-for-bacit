@@ -8,11 +8,12 @@
 	</style>
 </head>
 <body>
+	<p>
 		<h2><strong> Oppgave 1</strong></h2>
-	<?php $navn = "Magnus" ?>
-	<?php $alder = 25  ?>
-	<?php $navn2 = "Jørgen" ?>
-	<?php $alder2 = 24 ?>
+			<?php $navn = "Magnus" ?>
+			<?php $alder = 25  ?>
+			<?php $navn2 = "Jørgen" ?>
+			<?php $alder2 = 24 ?>
 <table style="width: 50%">
 	<tr>
 		<th>Navn</th>
@@ -35,7 +36,7 @@
 <br>
 <ul style="width: 150px">
 	<li><?php echo $navn , " , ", $alder ?></li>
-	<li><?php echo $navn2 , " , ", $alder ?></li>
+	<li><?php echo $navn2 , " , ", $alder2 ?></li>
 </ul>
 <br>
 <p>
@@ -43,6 +44,7 @@
 	<?php echo $navn2, ", ", $alder2 ?><br>
 	</p>
 <br><br>
+</p>
 
 
 <h2> Oppgave 2</h2>
@@ -54,11 +56,11 @@
 	<input type="text" name="second">
 	<select name="operator" id="">
 		<option>-- Velg Operator --</option>
-		<option>Pluss</option>
-		<option>Minus</option>	
-		<option>Gange</option>
-		<option>Dele</option>
-		<option>Gjennomsnitt</option>
+		<option value="pluss">Pluss</option>
+		<option value="minus">Minus</option>	
+		<option value="gange">Gange</option>
+		<option value="dele">Dele</option>
+		<option value="gjennomsnitt">Gjennomsnitt</option>
 	</select>
 	<button type="submit" name="submit" value="submit">Regn ut</button>
 	</p>
@@ -81,10 +83,7 @@
 		else {
 			echo "Medlemsnummer matcher ikke. Medlemsnummer 1: ", var_export($medlem1), ". Medlemsnummer 2: ", var_export($medlem2);
 		}?>
-<br><br>
 
-
-<h2>Oppgave 5</h2>
 
 </body>
 </html>
